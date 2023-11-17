@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">938900317637-c19oueq4t4e0nl03lm9ejnn403q0afmi.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">938900317637</string>
+    <string name="google_api_key" translatable="false">AIzaSyBf6mt5nUZGvfwYYTVIXfCu1VWxoXwja80</string>
+    <string name="google_app_id" translatable="false">1:938900317637:android:c7a7195611361334f617ac</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBf6mt5nUZGvfwYYTVIXfCu1VWxoXwja80</string>
+    <string name="google_storage_bucket" translatable="false">quizzy-e79c1.appspot.com</string>
+    <string name="project_id" translatable="false">quizzy-e79c1</string>
+</resources>

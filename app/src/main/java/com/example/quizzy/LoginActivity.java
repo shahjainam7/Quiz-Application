@@ -34,12 +34,16 @@ public class LoginActivity extends AppCompatActivity {
         dialog = new ProgressDialog(this);
         dialog.setMessage("Logging in");
 
+
+
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email, pass;
                 email = binding.emailBox.getText().toString();
                 pass = binding.passwordBox.getText().toString();
+
+
 
                 dialog.show();
 

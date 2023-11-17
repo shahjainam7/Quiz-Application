@@ -1,7 +1,8 @@
 package com.example.quizzy;
 
 public class User {
-    private String name, email, pass, referCode;
+    private String name, email, pass, profile, referCode;
+    private long coins = 25;
 
     public User() {
     }
@@ -43,5 +44,21 @@ public class User {
 
     public void setReferCode(String referCode) {
         this.referCode = referCode;
+    }
+
+    public long getCoins() {
+        return coins;
+    }
+
+    public void setCoins(long coins) {
+        this.coins = coins;
+    }
+
+    public String getProfile() {
+        return profile;
+    }
+
+    public void setProfile(String profile) {
+        this.profile = profile;
     }
 }
